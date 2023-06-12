@@ -79,21 +79,18 @@ class _AppOutlineButtonState extends State<AppOutlineButton> {
     late Color borderColor;
     late Color shadowColor;
     late Color primaryColor;
-    late Color disabledColor;
     late Color hoverColor;
     late Color focusColor;
     if (!widget.isDestructive) {
       borderColor = widget.borderColor;
       shadowColor = const Color(0xFFF2F4F7);
       primaryColor = widget.backgroundColor;
-      disabledColor = ElevarmColors.white;
       hoverColor = ElevarmColors.neutral100;
       focusColor = ElevarmColors.white;
     } else {
       borderColor = ElevarmColors.white;
       shadowColor = const Color(0xFFFEE4E2);
       primaryColor = ElevarmColors.white;
-      disabledColor = ElevarmColors.white;
       hoverColor = ElevarmColors.danger100;
       focusColor = ElevarmColors.white;
     }

@@ -36,6 +36,7 @@ class _AppState extends State<App> {
       routeInformationProvider: App.appRouter.routeInformationProvider,
       routeInformationParser: App.appRouter.routeInformationParser,
       routerDelegate: App.appRouter.routerDelegate,
+      debugShowCheckedModeBanner: false,
     );
   }
 }
